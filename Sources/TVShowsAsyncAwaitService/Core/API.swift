@@ -13,8 +13,9 @@ import TVShowsEndpoint
 
 public struct API {
     
+  // MARK: Typealiases -
+  
     public typealias ReqAdapter = RequestAdapter.Adapter
-    
     public typealias TVSEndpoint = TVShowsEndpoint.Endpoint
     
     // MARK: Properties -
