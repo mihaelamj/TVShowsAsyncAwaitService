@@ -12,6 +12,6 @@ import TVShowsEndpoint
 import TVShowsResponseResults
 
 public extension API {
-  func getItem<T>(dataRequest: DataRequest, decodingStrategy: JSONDecoder.KeyDecodingStrategy) where T: Decodable {
-  }
+//  func getItem<T>(dataRequest: DataRequest, decodingStrategy: JSONDecoder.KeyDecodingStrategy) where T: Decodable {
+//  }
 }
