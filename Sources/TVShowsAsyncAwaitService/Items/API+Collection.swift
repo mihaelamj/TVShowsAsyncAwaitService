@@ -21,7 +21,7 @@ public extension API {
   func getCollection<T>(ofType: T.Type, dataRequest: DataRequest, decodingStrategy:
                         JSONDecoder.KeyDecodingStrategy) async throws where T: Decodable {
     
-    try await withUnsafeThrowingContinuation { continuation in
+    try await withUnsafeThrowingContinuation { continuation in // error: Generic parameter 'T' could not be inferred
       
       self.adapters.forEach { $0.beforeSend(dataRequest.request) }
       
